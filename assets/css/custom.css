@@ -1,0 +1,354 @@
+header{
+    background-color: #06afea;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 90px;
+    overflow: hidden;
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    height: 90px;
+}
+section.logo{
+    background: url(../img/logo-white.png) no-repeat;
+    background-size: cover;
+    width: 140px;
+    height: 32px;
+/*     position: absolute;
+    right: 28px; */
+}
+header nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+}
+header nav ul li a{
+    color: #ffffff;
+    transition: color .5s linear;
+    font-size: 1.2rem;
+}
+header nav ul li a:hover{
+    color: #bfe6f7;
+}
+.mobileMenuIcon{
+    display: none;
+}
+#drawerToggle{
+    display: none;
+}
+#drawerToggleLabel{
+    display: none;
+}
+main{
+    width: 100%;
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+main section.topContainer{
+    background-color: #06afea;
+    width: 100%;
+    height: 400px;
+      display: flex;
+    height: auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+main section.topContainer h1{
+    font-family: "YekanBold";
+    font-size: 2.7rem;
+    font-weight: bold;
+}
+main section.topContainer p{
+    font-size: 1.2rem;
+    color: #ffffff;
+    line-height: 2;
+}
+main section.topContainer ul li{
+    display: inline-block;
+    padding: 9px 25px;
+    border-radius: 7px;
+    font-size: 1.2rem;
+}
+div.topBtn{
+    margin-bottom: 90px;
+}
+main section.topContainer ul li:first-child{
+    margin: 50px 0 0 30px;
+} 
+/* End Header */
+.mainImageSlider{
+  clear: both;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -71px;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+}
+#slider {
+     width: 100%;
+     margin: 0 auto;
+   }
+   #slider img {
+     display: none;
+     width: 100%;
+     border-radius: 7px;
+   }
+    .show {
+       display: inline;
+     }
+.container img{
+     width: 80%;
+  height: auto;
+  vertical-align: bottom;
+}
+text{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #000;
+}
+.txtBox{
+    display: flex;
+    flex-direction: row;
+}
+.txtBox p{
+    line-height: 2.5rem;
+    width: 90%;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+.iconBgIcon{
+    padding: 13px;
+    font-size: 28px;
+    background: #f5f5f9;
+    border-radius: 7px;
+    color: #09c;
+    margin-left: 15px;
+}
+.fa-user-shield{
+    font-size: 5rem;
+}
+.txtBoxUser,.txtBoxBranding,.callToAction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.txtBoxUser h3{
+    font-size: 2.5rem;
+    font-family: "YekanBold";
+    font-weight: 800;
+}
+.txtBoxUser p{
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+.txtBoxUser i{
+    display: inline-block;
+}
+.iconBgIconWhite{
+    padding: 13px;
+    font-size: 28px;
+    height: 50px;
+    width: 50px;
+    background: #ffffff;
+    border-radius: 7px;
+    color: #2daae1;
+    margin-left: 2px;
+}
+.txtBoxBranding h3{
+    font-size: 2rem;
+    font-family: "YekanBold";
+    font-weight: 800;
+    color: #000;
+}
+.txtBoxBranding p{
+    font-size: 1.2rem;
+}
+.card{
+    width: 32%;
+    height: auto;
+    min-height: 320px;
+    border: 1px solid #efefef;
+    box-shadow: 0 3px 9px 0 rgb(0 0 0 / 3%);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+    transition: margin-top .6s linear;
+}
+.card:hover{
+    margin-top: -10px;
+    cursor: pointer;
+}
+.cardText p,.cardFooter p{
+    color: #00000080;
+    text-align: right;
+    font-size: 1rem;
+}
+.cardFooter img{
+    width: 52px;
+    height: 52px;
+    border-radius: 7px;
+    position: absolute;
+    right: 3px;
+}
+.cardFooter p{
+    margin-right: 65px;
+}
+.brandsLogo img{
+    filter: grayscale(1);
+    transition: filter .5s linear;
+}
+.brandsLogo:hover img{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+.callToAction{
+   border: 1px solid #000;
+   border-radius: 7px;
+   width: 100%;
+   height: auto;
+   background: url(../img/abstract.png) right 0 top 20px no-repeat;
+}
+.callToAction p{
+    font-size: 1.3rem;
+    color: #000;
+}
+ul.socailIcons li{
+    display: inline-block;
+}
+footer h6{
+    font-size: 1.3rem;
+    font-family: "YekanBold";
+    font-weight: 700;
+}
+footer ul li{
+
+    line-height: 60px;
+}
+footer ul li a{
+    color: #000;
+    font-size: 1rem;
+    transition: color .5s linear,padding-right .5s linear;
+}
+footer ul li a:hover{
+    color: rgb(33, 33, 33);
+    padding-right: 10px;
+}
+span.contract {
+    background-color: #F2F6F8;
+    padding: 0 3px;
+    border-radius: 7px;
+    color: #0AB0EA;
+}
+ul.socailIcons li a i {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 7px;
+    background-color: #F0F7FF;
+    color: #09c;
+    text-align: center;
+}
+.copyRight{
+    border-top: 1px solid #efefef;
+    padding: 20px;
+}
+@media only screen and (max-width: 500px){
+    .grayBtn {
+    margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 500px){
+.columnReverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.card {
+     width: 100%;
+     margin-top: 20px; 
+}
+.txtBox p {
+    width: 100%;
+    margin: 20px 0 20px 0;
+    padding: 0px 62px;
+}
+}
+@media only screen and (max-width: 769px){
+    section.logo{
+    position: absolute;
+    right: 28px;
+}
+.mobileMenuIcon{
+    display: block;
+    position: absolute;
+    left: -100px;
+    color: #00000080;
+    border: 1px solid #0000001a;
+    padding: 5px 6px;
+    border-radius: 7px;
+    top: -5px;
+    cursor: pointer;
+}
+ input#drawerToggle{
+     position: fixed;
+     top: 30px;
+     left: 30px;
+ }
+ label#drawerToggleLabel{
+    display: block;
+    position: fixed;
+    top: 36px;
+    left: 18px;
+    z-index: 10;
+    width: 54px;
+    height: 50px;
+}
+#mainMenu{
+    display: none;
+}
+ input#drawerToggle:checked ~ ul#mainMenu{
+     display: flex;
+     z-index: 1000;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 85px;
+    background-color: #06afea;
+    width: 100%;
+    border-top: 1px solid #ffffff;
+ }
+ ul#mainMenu li {
+    width: 100%;
+ }
+ ul#mainMenu li:last-child {
+    width: 80%;
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 20px;
+ }
+.txtBox p {
+    padding: 20px 30px;
+}
+text {
+    font-size: 1.3rem;
+}
+.fa-tumblr,.fa-ellipsis-h{
+    margin-top: 10px;
+}
+footer {
+    text-align: center;
+}
+}
+@media only screen and (min-width: 600px) and (max-width: 770px){
+    label#drawerToggleLabel {
+    left: 49px;
+    }
+}
