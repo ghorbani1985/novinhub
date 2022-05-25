@@ -352,3 +352,8 @@ footer {
     left: 49px;
     }
 }
+@media only screen and (max-width: 1024px){
+    header nav ul li {
+    padding: 10px 12px;
+}
+}
